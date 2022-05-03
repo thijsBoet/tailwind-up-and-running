@@ -4,8 +4,8 @@
 	"description": "tailwind tutorial by tailwind labs",
 	"main": "index.js",
 	"scripts": {
-		"start": "vite",
-		"dev": "tailwindcss -i ./css/input.css -o ./css/styles.css --watch"
+		"dev": "vite",
+		"start": "tailwindcss -i ./css/input.css -o ./css/styles.css --watch"
 	},
 	"repository": {
 		"type": "git",
