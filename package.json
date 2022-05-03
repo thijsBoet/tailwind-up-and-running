@@ -1,0 +1,32 @@
+{
+	"name": "tailwind-up-and-running",
+	"version": "1.0.0",
+	"description": "tailwind tutorial by tailwind labs",
+	"main": "index.js",
+	"scripts": {
+		"start": "vite",
+		"dev": "tailwindcss -i ./css/input.css -o ./css/styles.css --watch"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/thijsBoet/tailwind-up-and-running.git"
+	},
+	"keywords": [
+		"tailwind",
+		"up",
+		"and",
+		"running"
+	],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/thijsBoet/tailwind-up-and-running/issues"
+	},
+	"homepage": "https://github.com/thijsBoet/tailwind-up-and-running#readme",
+	"devDependencies": {
+		"autoprefixer": "^10.4.7",
+		"postcss": "^8.4.13",
+		"tailwindcss": "^3.0.24",
+		"vite": "^2.9.7"
+	}
+}
