@@ -1,13 +1,13 @@
 module.exports = {
-	content: ['./**/*.{html,js}'],
-	theme: {
-		extend: {},
-	},
-	variants: {
-		extend: {
-			backgroundColor: ['active'],
-			fontSize: ['hover']
-		}
-	},
-	plugins: [],
+  purge: [],
+  darkMode: false, // or 'media' or 'class'
+  theme: {
+    extend: {},
+  },
+  variants: {
+    extend: {
+      backgroundColor: ["active"],
+    },
+  },
+  plugins: [],
 };
